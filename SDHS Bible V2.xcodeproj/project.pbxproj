@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CA8B73016513B1900900B37 /* GeneralModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA8B72F16513B1900900B37 /* GeneralModel.m */; };
 		1CC9127216494C6D0017AB96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC9127116494C6D0017AB96 /* UIKit.framework */; };
 		1CC9127416494C6D0017AB96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC9127316494C6D0017AB96 /* Foundation.framework */; };
 		1CC9127616494C6D0017AB96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC9127516494C6D0017AB96 /* CoreGraphics.framework */; };
@@ -18,11 +19,32 @@
 		1CC9128816494C6D0017AB96 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9128716494C6D0017AB96 /* Default-568h@2x.png */; };
 		1CC9128B16494C6D0017AB96 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9128916494C6D0017AB96 /* MainStoryboard_iPhone.storyboard */; };
 		1CC9128E16494C6D0017AB96 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9128C16494C6D0017AB96 /* MainStoryboard_iPad.storyboard */; };
-		1CC9129116494C6D0017AB96 /* SDHSBibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC9129016494C6D0017AB96 /* SDHSBibleViewController.m */; };
+		1CC9129116494C6D0017AB96 /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC9129016494C6D0017AB96 /* ReadViewController.m */; };
+		1CC912A116494D170017AB96 /* bookshelf_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129716494D170017AB96 /* bookshelf_60_60.png */; };
+		1CC912A216494D170017AB96 /* fontsizePlus_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129816494D170017AB96 /* fontsizePlus_30_30.png */; };
+		1CC912A316494D170017AB96 /* scroll_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129916494D170017AB96 /* scroll_30_30.png */; };
+		1CC912A416494D170017AB96 /* scroll_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129A16494D170017AB96 /* scroll_60_60.png */; };
+		1CC912A516494D170017AB96 /* fontsizePlus_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129B16494D170017AB96 /* fontsizePlus_60_60.png */; };
+		1CC912A616494D170017AB96 /* fontsizeMinus_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129C16494D170017AB96 /* fontsizeMinus_30_30.png */; };
+		1CC912A716494D170017AB96 /* fontsizeMinus_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129D16494D170017AB96 /* fontsizeMinus_60_60.png */; };
+		1CC912A816494D170017AB96 /* bookshelf_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129E16494D170017AB96 /* bookshelf_30_30.png */; };
+		1CC912A916494D170017AB96 /* app-icon_114_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129F16494D170017AB96 /* app-icon_114_114.png */; };
+		1CC912AA16494D170017AB96 /* app-icon_57_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC912A016494D170017AB96 /* app-icon_57_57.png */; };
+		1CC912AF16494D2C0017AB96 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC912AB16494D2C0017AB96 /* Default-568h@2x.png */; };
+		1CC912B116494D2C0017AB96 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC912AD16494D2C0017AB96 /* Default@2x.png */; };
+		1CC912B616494DCB0017AB96 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC912B516494DCB0017AB96 /* Default.png */; };
+		1CC912B816494E050017AB96 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC912B716494E050017AB96 /* libsqlite3.dylib */; };
+		1CC912BB164950EF0017AB96 /* ChoosePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC912BA164950EF0017AB96 /* ChoosePickerViewController.m */; };
+		1CC912BE164951080017AB96 /* SearchPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC912BD164951080017AB96 /* SearchPickerViewController.m */; };
+		1CC912C11649511F0017AB96 /* BookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC912C01649511F0017AB96 /* BookmarkViewController.m */; };
+		1CC912C616496C5E0017AB96 /* sdhs_bible.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1CC912C416496C5E0017AB96 /* sdhs_bible.sql */; };
+		1CC912C716496C5E0017AB96 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CC912C516496C5E0017AB96 /* Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1CC9126D16494C6D0017AB96 /* SDHS Bible V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDHS Bible V2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA8B72E16513B1900900B37 /* GeneralModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralModel.h; sourceTree = "<group>"; };
+		1CA8B72F16513B1900900B37 /* GeneralModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralModel.m; sourceTree = "<group>"; };
+		1CC9126D16494C6D0017AB96 /* SDHS Bible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDHS Bible.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC9127116494C6D0017AB96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1CC9127316494C6D0017AB96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1CC9127516494C6D0017AB96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -37,8 +59,30 @@
 		1CC9128716494C6D0017AB96 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1CC9128A16494C6D0017AB96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		1CC9128D16494C6D0017AB96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		1CC9128F16494C6D0017AB96 /* SDHSBibleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDHSBibleViewController.h; sourceTree = "<group>"; };
-		1CC9129016494C6D0017AB96 /* SDHSBibleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDHSBibleViewController.m; sourceTree = "<group>"; };
+		1CC9128F16494C6D0017AB96 /* ReadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
+		1CC9129016494C6D0017AB96 /* ReadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
+		1CC9129716494D170017AB96 /* bookshelf_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookshelf_60_60.png; sourceTree = "<group>"; };
+		1CC9129816494D170017AB96 /* fontsizePlus_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontsizePlus_30_30.png; sourceTree = "<group>"; };
+		1CC9129916494D170017AB96 /* scroll_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_30_30.png; sourceTree = "<group>"; };
+		1CC9129A16494D170017AB96 /* scroll_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_60_60.png; sourceTree = "<group>"; };
+		1CC9129B16494D170017AB96 /* fontsizePlus_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontsizePlus_60_60.png; sourceTree = "<group>"; };
+		1CC9129C16494D170017AB96 /* fontsizeMinus_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontsizeMinus_30_30.png; sourceTree = "<group>"; };
+		1CC9129D16494D170017AB96 /* fontsizeMinus_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontsizeMinus_60_60.png; sourceTree = "<group>"; };
+		1CC9129E16494D170017AB96 /* bookshelf_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookshelf_30_30.png; sourceTree = "<group>"; };
+		1CC9129F16494D170017AB96 /* app-icon_114_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon_114_114.png"; sourceTree = "<group>"; };
+		1CC912A016494D170017AB96 /* app-icon_57_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon_57_57.png"; sourceTree = "<group>"; };
+		1CC912AB16494D2C0017AB96 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1CC912AD16494D2C0017AB96 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1CC912B516494DCB0017AB96 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1CC912B716494E050017AB96 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1CC912B9164950EF0017AB96 /* ChoosePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosePickerViewController.h; sourceTree = "<group>"; };
+		1CC912BA164950EF0017AB96 /* ChoosePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosePickerViewController.m; sourceTree = "<group>"; };
+		1CC912BC164951080017AB96 /* SearchPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchPickerViewController.h; path = ../SearchPickerViewController.h; sourceTree = "<group>"; };
+		1CC912BD164951080017AB96 /* SearchPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchPickerViewController.m; path = ../SearchPickerViewController.m; sourceTree = "<group>"; };
+		1CC912BF1649511F0017AB96 /* BookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookmarkViewController.h; path = ../BookmarkViewController.h; sourceTree = "<group>"; };
+		1CC912C01649511F0017AB96 /* BookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookmarkViewController.m; path = ../BookmarkViewController.m; sourceTree = "<group>"; };
+		1CC912C416496C5E0017AB96 /* sdhs_bible.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = sdhs_bible.sql; sourceTree = "<group>"; };
+		1CC912C516496C5E0017AB96 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC912B816494E050017AB96 /* libsqlite3.dylib in Frameworks */,
 				1CC9127216494C6D0017AB96 /* UIKit.framework in Frameworks */,
 				1CC9127416494C6D0017AB96 /* Foundation.framework in Frameworks */,
 				1CC9127616494C6D0017AB96 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +103,20 @@
 		1CC9126216494C6D0017AB96 = {
 			isa = PBXGroup;
 			children = (
+				1CC912B716494E050017AB96 /* libsqlite3.dylib */,
+				1CC912B516494DCB0017AB96 /* Default.png */,
+				1CC912AB16494D2C0017AB96 /* Default-568h@2x.png */,
+				1CC912AD16494D2C0017AB96 /* Default@2x.png */,
+				1CC9129716494D170017AB96 /* bookshelf_60_60.png */,
+				1CC9129816494D170017AB96 /* fontsizePlus_30_30.png */,
+				1CC9129916494D170017AB96 /* scroll_30_30.png */,
+				1CC9129A16494D170017AB96 /* scroll_60_60.png */,
+				1CC9129B16494D170017AB96 /* fontsizePlus_60_60.png */,
+				1CC9129C16494D170017AB96 /* fontsizeMinus_30_30.png */,
+				1CC9129D16494D170017AB96 /* fontsizeMinus_60_60.png */,
+				1CC9129E16494D170017AB96 /* bookshelf_30_30.png */,
+				1CC9129F16494D170017AB96 /* app-icon_114_114.png */,
+				1CC912A016494D170017AB96 /* app-icon_57_57.png */,
 				1CC9127716494C6D0017AB96 /* SDHS Bible V2 */,
 				1CC9127016494C6D0017AB96 /* Frameworks */,
 				1CC9126E16494C6D0017AB96 /* Products */,
@@ -67,7 +126,7 @@
 		1CC9126E16494C6D0017AB96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CC9126D16494C6D0017AB96 /* SDHS Bible V2.app */,
+				1CC9126D16494C6D0017AB96 /* SDHS Bible.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,12 +144,22 @@
 		1CC9127716494C6D0017AB96 /* SDHS Bible V2 */ = {
 			isa = PBXGroup;
 			children = (
+				1CC912C416496C5E0017AB96 /* sdhs_bible.sql */,
+				1CC912C516496C5E0017AB96 /* Config.plist */,
+				1CC912BF1649511F0017AB96 /* BookmarkViewController.h */,
+				1CC912C01649511F0017AB96 /* BookmarkViewController.m */,
+				1CC912BC164951080017AB96 /* SearchPickerViewController.h */,
+				1CC912BD164951080017AB96 /* SearchPickerViewController.m */,
+				1CC912B9164950EF0017AB96 /* ChoosePickerViewController.h */,
+				1CC912BA164950EF0017AB96 /* ChoosePickerViewController.m */,
 				1CC9128016494C6D0017AB96 /* SDHSBibleAppDelegate.h */,
 				1CC9128116494C6D0017AB96 /* SDHSBibleAppDelegate.m */,
 				1CC9128916494C6D0017AB96 /* MainStoryboard_iPhone.storyboard */,
 				1CC9128C16494C6D0017AB96 /* MainStoryboard_iPad.storyboard */,
-				1CC9128F16494C6D0017AB96 /* SDHSBibleViewController.h */,
-				1CC9129016494C6D0017AB96 /* SDHSBibleViewController.m */,
+				1CC9128F16494C6D0017AB96 /* ReadViewController.h */,
+				1CC9129016494C6D0017AB96 /* ReadViewController.m */,
+				1CA8B72E16513B1900900B37 /* GeneralModel.h */,
+				1CA8B72F16513B1900900B37 /* GeneralModel.m */,
 				1CC9127816494C6D0017AB96 /* Supporting Files */,
 			);
 			path = "SDHS Bible V2";
@@ -127,7 +196,7 @@
 			);
 			name = "SDHS Bible V2";
 			productName = "SDHS Bible V2";
-			productReference = 1CC9126D16494C6D0017AB96 /* SDHS Bible V2.app */;
+			productReference = 1CC9126D16494C6D0017AB96 /* SDHS Bible.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -168,6 +237,21 @@
 				1CC9128816494C6D0017AB96 /* Default-568h@2x.png in Resources */,
 				1CC9128B16494C6D0017AB96 /* MainStoryboard_iPhone.storyboard in Resources */,
 				1CC9128E16494C6D0017AB96 /* MainStoryboard_iPad.storyboard in Resources */,
+				1CC912A116494D170017AB96 /* bookshelf_60_60.png in Resources */,
+				1CC912A216494D170017AB96 /* fontsizePlus_30_30.png in Resources */,
+				1CC912A316494D170017AB96 /* scroll_30_30.png in Resources */,
+				1CC912A416494D170017AB96 /* scroll_60_60.png in Resources */,
+				1CC912A516494D170017AB96 /* fontsizePlus_60_60.png in Resources */,
+				1CC912A616494D170017AB96 /* fontsizeMinus_30_30.png in Resources */,
+				1CC912A716494D170017AB96 /* fontsizeMinus_60_60.png in Resources */,
+				1CC912A816494D170017AB96 /* bookshelf_30_30.png in Resources */,
+				1CC912A916494D170017AB96 /* app-icon_114_114.png in Resources */,
+				1CC912AA16494D170017AB96 /* app-icon_57_57.png in Resources */,
+				1CC912AF16494D2C0017AB96 /* Default-568h@2x.png in Resources */,
+				1CC912B116494D2C0017AB96 /* Default@2x.png in Resources */,
+				1CC912B616494DCB0017AB96 /* Default.png in Resources */,
+				1CC912C616496C5E0017AB96 /* sdhs_bible.sql in Resources */,
+				1CC912C716496C5E0017AB96 /* Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +264,11 @@
 			files = (
 				1CC9127E16494C6D0017AB96 /* main.m in Sources */,
 				1CC9128216494C6D0017AB96 /* SDHSBibleAppDelegate.m in Sources */,
-				1CC9129116494C6D0017AB96 /* SDHSBibleViewController.m in Sources */,
+				1CC9129116494C6D0017AB96 /* ReadViewController.m in Sources */,
+				1CC912BB164950EF0017AB96 /* ChoosePickerViewController.m in Sources */,
+				1CC912BE164951080017AB96 /* SearchPickerViewController.m in Sources */,
+				1CC912C11649511F0017AB96 /* BookmarkViewController.m in Sources */,
+				1CA8B73016513B1900900B37 /* GeneralModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +357,15 @@
 		1CC9129516494C6D0017AB96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDHS Bible V2/SDHS Bible V2-Prefix.pch";
 				INFOPLIST_FILE = "SDHS Bible V2/SDHS Bible V2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "SDHS Bible";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -280,10 +373,15 @@
 		1CC9129616494C6D0017AB96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDHS Bible V2/SDHS Bible V2-Prefix.pch";
 				INFOPLIST_FILE = "SDHS Bible V2/SDHS Bible V2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "SDHS Bible";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -307,6 +405,7 @@
 				1CC9129616494C6D0017AB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
