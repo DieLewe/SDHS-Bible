@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2A13B91666647900B13D89 /* app-icon_57_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A13B81666647900B13D89 /* app-icon_57_57.png */; };
+		1C2A13BB1666647F00B13D89 /* app-icon_114_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A13BA1666647F00B13D89 /* app-icon_114_114.png */; };
+		1C2A13BD1666649A00B13D89 /* app-icon_72_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A13BC1666649A00B13D89 /* app-icon_72_72.png */; };
+		1C2A13BF1666649D00B13D89 /* app-icon_144_144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A13BE1666649D00B13D89 /* app-icon_144_144.png */; };
+		1C2A13C1166664B700B13D89 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A13C0166664B700B13D89 /* Default.png */; };
+		1C2A13C3166664CD00B13D89 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A13C2166664CD00B13D89 /* Default@2x.png */; };
+		1C2A13C5166664DE00B13D89 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A13C4166664DE00B13D89 /* Default-568h@2x.png */; };
+		1C2A13C7166664FE00B13D89 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A13C6166664FE00B13D89 /* Default-Portrait~ipad.png */; };
+		1C2A13C91666651000B13D89 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A13C81666651000B13D89 /* Default-Portrait@2x~ipad.png */; };
+		1C2A13CB1666652500B13D89 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A13CA1666652500B13D89 /* Default-Landscape~ipad.png */; };
+		1C2A13CD1666653700B13D89 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A13CC1666653700B13D89 /* Default-Landscape@2x~ipad.png */; };
 		1CA8B73016513B1900900B37 /* GeneralModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA8B72F16513B1900900B37 /* GeneralModel.m */; };
 		1CC9127216494C6D0017AB96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC9127116494C6D0017AB96 /* UIKit.framework */; };
 		1CC9127416494C6D0017AB96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC9127316494C6D0017AB96 /* Foundation.framework */; };
@@ -14,37 +25,37 @@
 		1CC9127C16494C6D0017AB96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9127A16494C6D0017AB96 /* InfoPlist.strings */; };
 		1CC9127E16494C6D0017AB96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC9127D16494C6D0017AB96 /* main.m */; };
 		1CC9128216494C6D0017AB96 /* SDHSBibleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC9128116494C6D0017AB96 /* SDHSBibleAppDelegate.m */; };
-		1CC9128416494C6D0017AB96 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9128316494C6D0017AB96 /* Default.png */; };
-		1CC9128616494C6D0017AB96 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9128516494C6D0017AB96 /* Default@2x.png */; };
-		1CC9128816494C6D0017AB96 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9128716494C6D0017AB96 /* Default-568h@2x.png */; };
 		1CC9128B16494C6D0017AB96 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9128916494C6D0017AB96 /* MainStoryboard_iPhone.storyboard */; };
 		1CC9128E16494C6D0017AB96 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9128C16494C6D0017AB96 /* MainStoryboard_iPad.storyboard */; };
 		1CC9129116494C6D0017AB96 /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC9129016494C6D0017AB96 /* ReadViewController.m */; };
 		1CC912A116494D170017AB96 /* bookshelf_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129716494D170017AB96 /* bookshelf_60_60.png */; };
-		1CC912A216494D170017AB96 /* fontsizePlus_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129816494D170017AB96 /* fontsizePlus_30_30.png */; };
 		1CC912A316494D170017AB96 /* scroll_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129916494D170017AB96 /* scroll_30_30.png */; };
 		1CC912A416494D170017AB96 /* scroll_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129A16494D170017AB96 /* scroll_60_60.png */; };
-		1CC912A516494D170017AB96 /* fontsizePlus_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129B16494D170017AB96 /* fontsizePlus_60_60.png */; };
-		1CC912A616494D170017AB96 /* fontsizeMinus_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129C16494D170017AB96 /* fontsizeMinus_30_30.png */; };
-		1CC912A716494D170017AB96 /* fontsizeMinus_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129D16494D170017AB96 /* fontsizeMinus_60_60.png */; };
 		1CC912A816494D170017AB96 /* bookshelf_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129E16494D170017AB96 /* bookshelf_30_30.png */; };
-		1CC912A916494D170017AB96 /* app-icon_114_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9129F16494D170017AB96 /* app-icon_114_114.png */; };
-		1CC912AA16494D170017AB96 /* app-icon_57_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC912A016494D170017AB96 /* app-icon_57_57.png */; };
-		1CC912AF16494D2C0017AB96 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC912AB16494D2C0017AB96 /* Default-568h@2x.png */; };
-		1CC912B116494D2C0017AB96 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC912AD16494D2C0017AB96 /* Default@2x.png */; };
-		1CC912B616494DCB0017AB96 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC912B516494DCB0017AB96 /* Default.png */; };
 		1CC912B816494E050017AB96 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC912B716494E050017AB96 /* libsqlite3.dylib */; };
 		1CC912BB164950EF0017AB96 /* ChoosePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC912BA164950EF0017AB96 /* ChoosePickerViewController.m */; };
 		1CC912BE164951080017AB96 /* SearchPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC912BD164951080017AB96 /* SearchPickerViewController.m */; };
-		1CC912C11649511F0017AB96 /* BookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC912C01649511F0017AB96 /* BookmarkViewController.m */; };
+		1CC912C11649511F0017AB96 /* BookmarkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC912C01649511F0017AB96 /* BookmarkTableViewController.m */; };
 		1CC912C616496C5E0017AB96 /* sdhs_bible.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1CC912C416496C5E0017AB96 /* sdhs_bible.sql */; };
 		1CC912C716496C5E0017AB96 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CC912C516496C5E0017AB96 /* Config.plist */; };
+		1CCB42F716637E520059A596 /* BookmarkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB42F616637E520059A596 /* BookmarkTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C2A13B81666647900B13D89 /* app-icon_57_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon_57_57.png"; sourceTree = "<group>"; };
+		1C2A13BA1666647F00B13D89 /* app-icon_114_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon_114_114.png"; sourceTree = "<group>"; };
+		1C2A13BC1666649A00B13D89 /* app-icon_72_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon_72_72.png"; sourceTree = "<group>"; };
+		1C2A13BE1666649D00B13D89 /* app-icon_144_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon_144_144.png"; sourceTree = "<group>"; };
+		1C2A13C0166664B700B13D89 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1C2A13C2166664CD00B13D89 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1C2A13C4166664DE00B13D89 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1C2A13C6166664FE00B13D89 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		1C2A13C81666651000B13D89 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		1C2A13CA1666652500B13D89 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		1C2A13CC1666653700B13D89 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		1CA8B72E16513B1900900B37 /* GeneralModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralModel.h; sourceTree = "<group>"; };
 		1CA8B72F16513B1900900B37 /* GeneralModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralModel.m; sourceTree = "<group>"; };
-		1CC9126D16494C6D0017AB96 /* SDHS Bible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDHS Bible.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC9126D16494C6D0017AB96 /* SDHS Bible 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDHS Bible 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC9127116494C6D0017AB96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1CC9127316494C6D0017AB96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1CC9127516494C6D0017AB96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,27 +73,20 @@
 		1CC9128F16494C6D0017AB96 /* ReadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
 		1CC9129016494C6D0017AB96 /* ReadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
 		1CC9129716494D170017AB96 /* bookshelf_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookshelf_60_60.png; sourceTree = "<group>"; };
-		1CC9129816494D170017AB96 /* fontsizePlus_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontsizePlus_30_30.png; sourceTree = "<group>"; };
 		1CC9129916494D170017AB96 /* scroll_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_30_30.png; sourceTree = "<group>"; };
 		1CC9129A16494D170017AB96 /* scroll_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_60_60.png; sourceTree = "<group>"; };
-		1CC9129B16494D170017AB96 /* fontsizePlus_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontsizePlus_60_60.png; sourceTree = "<group>"; };
-		1CC9129C16494D170017AB96 /* fontsizeMinus_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontsizeMinus_30_30.png; sourceTree = "<group>"; };
-		1CC9129D16494D170017AB96 /* fontsizeMinus_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontsizeMinus_60_60.png; sourceTree = "<group>"; };
 		1CC9129E16494D170017AB96 /* bookshelf_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookshelf_30_30.png; sourceTree = "<group>"; };
-		1CC9129F16494D170017AB96 /* app-icon_114_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon_114_114.png"; sourceTree = "<group>"; };
-		1CC912A016494D170017AB96 /* app-icon_57_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon_57_57.png"; sourceTree = "<group>"; };
-		1CC912AB16494D2C0017AB96 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		1CC912AD16494D2C0017AB96 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		1CC912B516494DCB0017AB96 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1CC912B716494E050017AB96 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		1CC912B9164950EF0017AB96 /* ChoosePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosePickerViewController.h; sourceTree = "<group>"; };
 		1CC912BA164950EF0017AB96 /* ChoosePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosePickerViewController.m; sourceTree = "<group>"; };
 		1CC912BC164951080017AB96 /* SearchPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchPickerViewController.h; path = ../SearchPickerViewController.h; sourceTree = "<group>"; };
 		1CC912BD164951080017AB96 /* SearchPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchPickerViewController.m; path = ../SearchPickerViewController.m; sourceTree = "<group>"; };
-		1CC912BF1649511F0017AB96 /* BookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookmarkViewController.h; path = ../BookmarkViewController.h; sourceTree = "<group>"; };
-		1CC912C01649511F0017AB96 /* BookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookmarkViewController.m; path = ../BookmarkViewController.m; sourceTree = "<group>"; };
+		1CC912BF1649511F0017AB96 /* BookmarkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookmarkTableViewController.h; path = ../BookmarkTableViewController.h; sourceTree = "<group>"; };
+		1CC912C01649511F0017AB96 /* BookmarkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookmarkTableViewController.m; path = ../BookmarkTableViewController.m; sourceTree = "<group>"; };
 		1CC912C416496C5E0017AB96 /* sdhs_bible.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = sdhs_bible.sql; sourceTree = "<group>"; };
 		1CC912C516496C5E0017AB96 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		1CCB42F516637E520059A596 /* BookmarkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkTableViewCell.h; sourceTree = "<group>"; };
+		1CCB42F616637E520059A596 /* BookmarkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,20 +107,22 @@
 		1CC9126216494C6D0017AB96 = {
 			isa = PBXGroup;
 			children = (
+				1C2A13CC1666653700B13D89 /* Default-Landscape@2x~ipad.png */,
+				1C2A13CA1666652500B13D89 /* Default-Landscape~ipad.png */,
+				1C2A13C81666651000B13D89 /* Default-Portrait@2x~ipad.png */,
+				1C2A13C6166664FE00B13D89 /* Default-Portrait~ipad.png */,
+				1C2A13C4166664DE00B13D89 /* Default-568h@2x.png */,
+				1C2A13C2166664CD00B13D89 /* Default@2x.png */,
+				1C2A13C0166664B700B13D89 /* Default.png */,
+				1C2A13BE1666649D00B13D89 /* app-icon_144_144.png */,
+				1C2A13BC1666649A00B13D89 /* app-icon_72_72.png */,
+				1C2A13BA1666647F00B13D89 /* app-icon_114_114.png */,
+				1C2A13B81666647900B13D89 /* app-icon_57_57.png */,
 				1CC912B716494E050017AB96 /* libsqlite3.dylib */,
-				1CC912B516494DCB0017AB96 /* Default.png */,
-				1CC912AB16494D2C0017AB96 /* Default-568h@2x.png */,
-				1CC912AD16494D2C0017AB96 /* Default@2x.png */,
 				1CC9129716494D170017AB96 /* bookshelf_60_60.png */,
-				1CC9129816494D170017AB96 /* fontsizePlus_30_30.png */,
 				1CC9129916494D170017AB96 /* scroll_30_30.png */,
 				1CC9129A16494D170017AB96 /* scroll_60_60.png */,
-				1CC9129B16494D170017AB96 /* fontsizePlus_60_60.png */,
-				1CC9129C16494D170017AB96 /* fontsizeMinus_30_30.png */,
-				1CC9129D16494D170017AB96 /* fontsizeMinus_60_60.png */,
 				1CC9129E16494D170017AB96 /* bookshelf_30_30.png */,
-				1CC9129F16494D170017AB96 /* app-icon_114_114.png */,
-				1CC912A016494D170017AB96 /* app-icon_57_57.png */,
 				1CC9127716494C6D0017AB96 /* SDHS Bible V2 */,
 				1CC9127016494C6D0017AB96 /* Frameworks */,
 				1CC9126E16494C6D0017AB96 /* Products */,
@@ -126,7 +132,7 @@
 		1CC9126E16494C6D0017AB96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CC9126D16494C6D0017AB96 /* SDHS Bible.app */,
+				1CC9126D16494C6D0017AB96 /* SDHS Bible 2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,8 +152,10 @@
 			children = (
 				1CC912C416496C5E0017AB96 /* sdhs_bible.sql */,
 				1CC912C516496C5E0017AB96 /* Config.plist */,
-				1CC912BF1649511F0017AB96 /* BookmarkViewController.h */,
-				1CC912C01649511F0017AB96 /* BookmarkViewController.m */,
+				1CC912BF1649511F0017AB96 /* BookmarkTableViewController.h */,
+				1CC912C01649511F0017AB96 /* BookmarkTableViewController.m */,
+				1CCB42F516637E520059A596 /* BookmarkTableViewCell.h */,
+				1CCB42F616637E520059A596 /* BookmarkTableViewCell.m */,
 				1CC912BC164951080017AB96 /* SearchPickerViewController.h */,
 				1CC912BD164951080017AB96 /* SearchPickerViewController.m */,
 				1CC912B9164950EF0017AB96 /* ChoosePickerViewController.h */,
@@ -196,7 +204,7 @@
 			);
 			name = "SDHS Bible V2";
 			productName = "SDHS Bible V2";
-			productReference = 1CC9126D16494C6D0017AB96 /* SDHS Bible.app */;
+			productReference = 1CC9126D16494C6D0017AB96 /* SDHS Bible 2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -232,26 +240,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC9127C16494C6D0017AB96 /* InfoPlist.strings in Resources */,
-				1CC9128416494C6D0017AB96 /* Default.png in Resources */,
-				1CC9128616494C6D0017AB96 /* Default@2x.png in Resources */,
-				1CC9128816494C6D0017AB96 /* Default-568h@2x.png in Resources */,
 				1CC9128B16494C6D0017AB96 /* MainStoryboard_iPhone.storyboard in Resources */,
 				1CC9128E16494C6D0017AB96 /* MainStoryboard_iPad.storyboard in Resources */,
 				1CC912A116494D170017AB96 /* bookshelf_60_60.png in Resources */,
-				1CC912A216494D170017AB96 /* fontsizePlus_30_30.png in Resources */,
 				1CC912A316494D170017AB96 /* scroll_30_30.png in Resources */,
 				1CC912A416494D170017AB96 /* scroll_60_60.png in Resources */,
-				1CC912A516494D170017AB96 /* fontsizePlus_60_60.png in Resources */,
-				1CC912A616494D170017AB96 /* fontsizeMinus_30_30.png in Resources */,
-				1CC912A716494D170017AB96 /* fontsizeMinus_60_60.png in Resources */,
 				1CC912A816494D170017AB96 /* bookshelf_30_30.png in Resources */,
-				1CC912A916494D170017AB96 /* app-icon_114_114.png in Resources */,
-				1CC912AA16494D170017AB96 /* app-icon_57_57.png in Resources */,
-				1CC912AF16494D2C0017AB96 /* Default-568h@2x.png in Resources */,
-				1CC912B116494D2C0017AB96 /* Default@2x.png in Resources */,
-				1CC912B616494DCB0017AB96 /* Default.png in Resources */,
 				1CC912C616496C5E0017AB96 /* sdhs_bible.sql in Resources */,
 				1CC912C716496C5E0017AB96 /* Config.plist in Resources */,
+				1C2A13B91666647900B13D89 /* app-icon_57_57.png in Resources */,
+				1C2A13BB1666647F00B13D89 /* app-icon_114_114.png in Resources */,
+				1C2A13BD1666649A00B13D89 /* app-icon_72_72.png in Resources */,
+				1C2A13BF1666649D00B13D89 /* app-icon_144_144.png in Resources */,
+				1C2A13C1166664B700B13D89 /* Default.png in Resources */,
+				1C2A13C3166664CD00B13D89 /* Default@2x.png in Resources */,
+				1C2A13C5166664DE00B13D89 /* Default-568h@2x.png in Resources */,
+				1C2A13C7166664FE00B13D89 /* Default-Portrait~ipad.png in Resources */,
+				1C2A13C91666651000B13D89 /* Default-Portrait@2x~ipad.png in Resources */,
+				1C2A13CB1666652500B13D89 /* Default-Landscape~ipad.png in Resources */,
+				1C2A13CD1666653700B13D89 /* Default-Landscape@2x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +274,9 @@
 				1CC9129116494C6D0017AB96 /* ReadViewController.m in Sources */,
 				1CC912BB164950EF0017AB96 /* ChoosePickerViewController.m in Sources */,
 				1CC912BE164951080017AB96 /* SearchPickerViewController.m in Sources */,
-				1CC912C11649511F0017AB96 /* BookmarkViewController.m in Sources */,
+				1CC912C11649511F0017AB96 /* BookmarkTableViewController.m in Sources */,
 				1CA8B73016513B1900900B37 /* GeneralModel.m in Sources */,
+				1CCB42F716637E520059A596 /* BookmarkTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +319,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rohan Meyer (P8EV48K625)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -326,6 +335,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1257F79E-D9E5-4427-82AA-440F581B13B1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -340,6 +350,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rohan Meyer (P8EV48K625)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -347,7 +358,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "1257F79E-D9E5-4427-82AA-440F581B13B1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -358,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDHS Bible V2/SDHS Bible V2-Prefix.pch";
 				INFOPLIST_FILE = "SDHS Bible V2/SDHS Bible V2-Info.plist";
@@ -365,7 +379,9 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				PRODUCT_NAME = "SDHS Bible";
+				PRODUCT_NAME = "SDHS Bible 2";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -374,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDHS Bible V2/SDHS Bible V2-Prefix.pch";
 				INFOPLIST_FILE = "SDHS Bible V2/SDHS Bible V2-Info.plist";
@@ -381,7 +398,9 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				PRODUCT_NAME = "SDHS Bible";
+				PRODUCT_NAME = "SDHS Bible 2";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
