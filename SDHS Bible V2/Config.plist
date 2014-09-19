@@ -4,16 +4,16 @@
 <dict>
 	<key>AvailableBibles</key>
 	<array>
-		<string>עִבְרִית תַּנַ&quot;ךְ</string>
+		<string>עִבְרִית תַּנַ״ךְ</string>
 		<string>Ἑλληνικά</string>
 		<string>English</string>
 		<string>ייִדיש</string>
 		<string>עִבְרִית הברית החדשה</string>
 	</array>
 	<key>Choice</key>
-	<string>עִבְרִית תַּנַייךְ</string>
+	<string>עִבְרִית תַּנַ״ךְ</string>
 	<key>ChoiceLoaded</key>
-	<string>עִבְרִית תַּנַייךְ</string>
+	<string>עִבְרִית תַּנַ״ךְ</string>
 	<key>English</key>
 	<array>
 		<string>bibleKJV</string>
@@ -31,7 +31,7 @@
 	<integer>6</integer>
 	<key>PartFlag</key>
 	<string>OT</string>
-	<key>ייִדיש תנך</key>
+	<key>ייִדיש תנ״ך</key>
 	<array>
 		<string>bibleYiddish</string>
 		<true/>
@@ -45,7 +45,7 @@
 		<string>Times New Roman</string>
 		<string>20</string>
 	</array>
-	<key>עִבְרִית תַּנַייךְ</key>
+	<key>עִבְרִית תַּנַ״ךְ</key>
 	<array>
 		<string>bibleHebrew</string>
 		<true/>
@@ -121,6 +121,8 @@
 		<string>Jude</string>
 		<string>Revelation</string>
 	</array>
+	<key>Bookmarks</key>
+	<dict/>
 	<key>BookOrderJewish</key>
 	<true/>
 </dict>

@@ -14,13 +14,15 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>app-icon_114_114.png</string>
+				<string>app-icon_72_72.png</string>
+				<string>app-icon_144_144.png</string>
 				<string>app-icon_57_57.png</string>
+				<string>app-icon_114_114.png</string>
 			</array>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>uk.co.sdhs.bible</string>
+	<string>uk.co.sdhs.bible2</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -28,7 +30,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
+	<string>2.0.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>

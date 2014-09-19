@@ -247,6 +247,7 @@ bool stuffChangedPicker;
     [btnOpenBible release];
     [pickLocation release];
     [generalModel release];
+    [destination release];
     sqlite3_close(db);
     [super dealloc];
 }

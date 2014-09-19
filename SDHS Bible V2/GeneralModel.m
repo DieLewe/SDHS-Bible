@@ -14,6 +14,7 @@ NSString *partFlag;
 NSInteger bookCurrentNumber, chapterCurrentNumber, verseCurrentNumber;
 bool bookOrderJewish;
 NSMutableArray *bnames;
+NSMutableDictionary *BookmarksPlist;
 
 //---finds the path to the application's Documents directory---
 - (NSString *) documentsPath {
@@ -146,8 +147,7 @@ NSMutableArray *bnames;
 - (NSArray *) getProperties {
     NSLog(@"Start getProperties");
     NSString *Choice;
-    NSArray *allProperties;
-    NSArray *properties;
+    NSArray *allProperties, *properties, *BookmarksPlistText;
     NSString *errorDesc = nil;
     NSPropertyListFormat format;
     NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:[self configPath]];
@@ -155,6 +155,8 @@ NSMutableArray *bnames;
     if (!temp) {
         NSLog(@"Error reading plist: %@, format: %d", errorDesc, format);
     }
+    BookmarksPlist = [temp objectForKey:@"Bookmarks"];
+    BookmarksPlistText = [[temp objectForKey:@"Bookmarks"] allValues];
     partFlag = [temp objectForKey:@"PartFlag"];
     Choice = [temp objectForKey:@"Choice"];
     properties = [temp objectForKey:Choice];
@@ -164,9 +166,9 @@ NSMutableArray *bnames;
     
 	fontName = [properties objectAtIndex:2];
 	fontSizeStr = [properties objectAtIndex:3];
-    allProperties = [NSArray arrayWithObjects:partFlag, tableName, alignRight, fontName, fontSizeStr, Choice, nil];
-    return allProperties;
+    allProperties = [NSArray arrayWithObjects:partFlag, tableName, alignRight, fontName, fontSizeStr, Choice, BookmarksPlist, BookmarksPlistText, nil];
     NSLog(@"End getProperties");
+    return allProperties;
 }
 
 - (void) writeConfigToFile: (NSMutableDictionary *) copyOfDict {

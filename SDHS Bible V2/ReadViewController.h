@@ -16,6 +16,7 @@
     sqlite3 *db;
     UITextView *textView1;
     UILabel *lblLocation;
+    UIButton *btnBookmark;
     NSString *tableName, *alignRight, *fontName;
     NSInteger fontSize;
     GeneralModel *generalModel;
@@ -23,7 +24,10 @@
 
 @property (strong, nonatomic) IBOutlet UITextView *textView1;
 @property (strong, nonatomic) IBOutlet UILabel *lblLocation;
-@property (strong, nonatomic) NSString *biblePicked, *bookNumberPicked, *chapterNumberPicked;
+@property (strong, nonatomic) NSString *biblePicked, *bookNumberPicked, *chapterNumberPicked, *bookmarkPicked;
+@property (strong, nonatomic) IBOutlet UIButton *btnBookmark;
+
+- (IBAction)pinchDetected:(UIPinchGestureRecognizer *)sender;
 
 - (void) getTextFromTable: (NSString *) turnPage;
 

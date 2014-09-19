@@ -89,8 +89,8 @@ NSInteger bookSelectedNumber, bookCurrentNumber;
     [self getProperties];
     
     bibles = [[NSMutableArray alloc] init];
-    [bibles addObject:@"עִבְרִית תַּנַייךְ"];//Hebrew Tanakh
-    [bibles addObject:@"ייִדיש תנך"];//Yiddish Tanakh
+    [bibles addObject:@"עִבְרִית תַּנַ״ךְ"];//Hebrew Tanakh
+    [bibles addObject:@"ייִדיש תנ״ך"];//Yiddish Tanakh
     [bibles addObject:@"עִבְרִית הברית החדשה"];//Hebrew New Testament
     [bibles addObject:@"English"];//English KJV
     
