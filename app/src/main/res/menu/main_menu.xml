@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/action_select_translation"
+        android:title="@string/select_translation"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_select_chapter"
+        android:title="@string/select_chapter"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_bookmarks"
+        android:title="@string/bookmarks"
+        android:icon="@android:drawable/btn_star"
+        app:showAsAction="ifRoom" />
+    
+</menu>
