@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SDHS Bible</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="select_chapter">Select Chapter</string>
+    <string name="select_book">Select Book</string>
+    <string name="select_translation">Select Translation</string>
+    <string name="text_not_available">Text not available in current translation. Please browse to %s or load another language.</string>
+    <string name="tanakh">Tanakh</string>
+    <string name="new_testament">New Testament</string>
+    <string name="hebrew_tanakh">עִבְרִית תַּנַ״ךְ</string>
+    <string name="yiddish_tanakh">ייִדיש תנ״ך</string>
+    <string name="hebrew_nt">עִבְרִית הברית החדשה</string>
+    <string name="english">English</string>
+    <string name="bookmark_added">Bookmark added</string>
+    <string name="bookmark_removed">Bookmark removed</string>
+    <string name="no_bookmarks">No bookmarks saved</string>
+</resources>
