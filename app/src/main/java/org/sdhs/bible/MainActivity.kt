@@ -10,9 +10,11 @@ import android.view.ScaleGestureDetector
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GestureDetectorCompat
+import androidx.core.widget.NestedScrollView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlin.math.abs
 
@@ -21,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var bibleTextView: TextView
     private lateinit var locationLabel: TextView
     private lateinit var bookmarkFab: FloatingActionButton
+    private lateinit var scrollView: NestedScrollView
     
     private lateinit var databaseHelper: DatabaseHelper
     private lateinit var configManager: ConfigManager
@@ -34,8 +37,20 @@ class MainActivity : AppCompatActivity() {
     companion object {
         private const val SWIPE_THRESHOLD = 100
         private const val SWIPE_VELOCITY_THRESHOLD = 100
-        const val REQUEST_CODE_PICKER = 1
-        const val REQUEST_CODE_BOOKMARK = 2
+    }
+    
+    private val pickerLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+        if (result.resultCode == RESULT_OK) {
+            loadConfiguration()
+            loadCurrentChapter()
+        }
+    }
+    
+    private val bookmarkLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+        if (result.resultCode == RESULT_OK) {
+            loadConfiguration()
+            loadCurrentChapter()
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,6 +61,7 @@ class MainActivity : AppCompatActivity() {
         bibleTextView = findViewById(R.id.bibleTextView)
         locationLabel = findViewById(R.id.locationLabel)
         bookmarkFab = findViewById(R.id.bookmarkFab)
+        scrollView = findViewById(R.id.scrollView)
 
         // Set up toolbar
         setSupportActionBar(findViewById(R.id.toolbar))
@@ -130,12 +146,13 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
         })
-    }
-
-    override fun onTouchEvent(event: MotionEvent): Boolean {
-        gestureDetector.onTouchEvent(event)
-        scaleGestureDetector.onTouchEvent(event)
-        return super.onTouchEvent(event)
+        
+        // Set touch listener on scroll view
+        scrollView.setOnTouchListener { _, event ->
+            gestureDetector.onTouchEvent(event)
+            scaleGestureDetector.onTouchEvent(event)
+            false
+        }
     }
 
     private fun loadCurrentChapter() {
@@ -269,12 +286,12 @@ class MainActivity : AppCompatActivity() {
         return when (item.itemId) {
             R.id.action_select_chapter -> {
                 val intent = Intent(this, ChapterPickerActivity::class.java)
-                startActivityForResult(intent, REQUEST_CODE_PICKER)
+                pickerLauncher.launch(intent)
                 true
             }
             R.id.action_bookmarks -> {
                 val intent = Intent(this, BookmarkActivity::class.java)
-                startActivityForResult(intent, REQUEST_CODE_BOOKMARK)
+                bookmarkLauncher.launch(intent)
                 true
             }
             R.id.action_select_translation -> {
@@ -309,17 +326,4 @@ class MainActivity : AppCompatActivity() {
             .show()
     }
 
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-        
-        if (resultCode == RESULT_OK) {
-            when (requestCode) {
-                REQUEST_CODE_PICKER, REQUEST_CODE_BOOKMARK -> {
-                    // Reload configuration and current chapter
-                    loadConfiguration()
-                    loadCurrentChapter()
-                }
-            }
-        }
-    }
 }
